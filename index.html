@@ -1,0 +1,175 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
+    <!-- Bootstrap CSS -->
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+
+    <!-- Link Custom CSS -->
+    <link rel="stylesheet" href="css/style.css" type="text/css">
+
+    <title>Vintage Car Hire</title>
+  </head>
+  
+  
+  
+  <body>
+    
+    <header>
+        
+        <!-- Nav Bar Start -->
+        <nav class="navbar fixed-top navbar-expand-lg">
+            <a class="navbar-brand" href="https://marcobuontempo.github.io/vintagecars/">VC</a>
+            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNavAltMarkup" aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
+              <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
+              <div class="navbar-nav">
+                <a class="nav-item nav-link active" href="#listings">Cars <span class="sr-only">(current)</span></a>
+                <a class="nav-item nav-link" href="#enquiries">Enquiries</a>
+                <a class="nav-item nav-link" href="#contact">Contact</a>
+              </div>
+            </div>
+          </nav>
+
+        <!-- Nav Bar End -->
+
+
+        <!-- Page Title Start -->
+        <h1 id="main-title">Vintage Cars for Hire</h1>
+        <!-- Page Title End -->
+    </header>
+
+
+    <!-- Car Listing Start -->
+    <h2>Car Listings</h2>
+    <section id="listings">
+      <div class="row">
+        <div class="col">
+          <div class="card">
+            <img src="images/Ford-ModelA.jpg" class="card-img-top" alt="Ford Model A">
+            <div class="card-body">
+              <h5 class="card-title">Ford Model A</h5>              
+              <p class="card-text">Car Type: Business Coupe</p>
+              <p class="card-text">Doors: 2</p>
+            </div>
+          </div>
+        </div>
+        <div class="col">
+            <div class="card">
+              <img src="images/Lamborghini-countach.jpg" class="card-img-top" alt="Lamborghini Countach">
+              <div class="card-body">
+                <h5 class="card-title">Lamborghini Countach</h5>
+                <p class="card-text">Car Type: Business Coupe</p>
+                <p class="card-text">Doors: 2</p>
+              </div>
+            </div>
+          </div>
+          <div class="col">
+            <div class="card">
+              <img src="images/Mercedes-W121.jfif" class="card-img-top" alt="Mercedes W121">
+              <div class="card-body">
+                <h5 class="card-title">Mercedes W121</h5>
+                <p class="card-text">Car Type: Sedan</p>
+                <p class="card-text">Doors: 4</p>
+              </div>
+            </div>
+          </div>
+          <div class="col">
+            <div class="card">
+              <img src="images/Nissan-280Z.jpg" class="card-img-top" alt="Nissan 280Z">
+              <div class="card-body">
+                <h5 class="card-title">Nissan 280Z</h5>
+                <p class="card-text">Car Type: Hatchback Coupe</p>
+                <p class="card-text">Doors: 3</p>
+              </div>
+            </div>
+          </div>
+          <div class="col">
+            <div class="card">
+              <img src="images/VW-Beetle.jpg" class="card-img-top" alt="Volkswagen Beetle">
+              <div class="card-body">
+                <h5 class="card-title">Volkswagen Beetle</h5>
+                <p class="card-text">Car Type: Convertible</p>
+                <p class="card-text">Doors: 2</p>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+    <!-- Car Listing End -->
+
+
+    <!-- Enquiries Form Start -->
+    <hr>      
+    <h2>Enquiries About a Car</h2>
+    <section id="enquiries">
+
+        <form>
+          <div class="form-group">
+            <label for="enquiry-full-name">Full Name</label>
+            <input type="text" class="form-control" id="enquiry-full-name" name="enquiry-full-name">
+          </div>
+          <div class="form-group">
+          <label for="enquiry-email">Email address</label>
+          <input type="email" class="form-control" id="enquiry-email" name="enquiry-email">
+        </div>
+        <div class="form-group">
+          <label for="enquiry-car-model">Choose a Car</label>
+          <select class="form-control" id="enquiry-car-model" name="enquiry-car-model">
+            <option value="" disabled selected>Select a car...</option>
+            <option value="Ford-Model-A">Ford Model A</option>
+            <option value="Lamborghini-Countach">Lamborghini Countach</option>
+            <option value="Mercedes-W121">Mercedes W121</option>
+            <option value="Nissan-280Z">Nissan 280Z</option>
+            <option value="Volkswagen-Beetle">Volkswagen Beetle</option>
+          </select>
+        </div>
+        <div class="form-group">
+          <label for="enquiry-comments">Comments</label>
+          <textarea class="form-control" id="enquiry-comments" name="enquiry-comments" rows="3" placeholder="Please write your enquiry here..."></textarea>
+        </div>
+        <button type="submit" id="enquiry-button" class="btn btn-primary">Submit</button>
+      </form>
+    </section>
+    <!-- Enquiries Form End -->
+
+
+    <!-- Contact Start -->
+    <hr>
+    <h2>Contact</h2>
+    <section id="contact">
+      <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3149.703643936267!2d144.97867781586504!3d-37.86722414487847!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x6ad66867aea2d7d5%3A0x90052fba988075d6!2s27%20Carlisle%20St%2C%20St%20Kilda%20VIC%203182!5e0!3m2!1sen!2sau!4v1630465674386!5m2!1sen!2sau" width="400" height="300" style="border:0;" allowfullscreen="" loading="lazy"></iframe>
+      <p><span class="contact-title">Address: </span>27 Carlisle Street, Earlston, VIC 3669</p>
+      <p><span class="contact-title">Phone: </span>9000-0000</p>
+      <p><span class="contact-title">Email: </span>contact@vintagecar.com</p>
+      <a id="backtotop" href="#main-title">Back to Top</a> 
+    </section>
+
+    <!-- Contact End -->
+     
+
+    <!-- Footer Start -->
+    <hr>
+    <footer class="text-center m-1">
+      <p>Copyright© Marco Buontempo. All rights reserved 2021</p>
+
+    </footer>
+    <!-- Footer End -->
+
+
+
+
+
+    <!-- Optional JavaScript -->
+    <!-- jQuery first, then Popper.js, then Bootstrap JS -->
+    <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js" integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1" crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js" integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous"></script>
+  </body>
+
+  </html>
