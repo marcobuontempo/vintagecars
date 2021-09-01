@@ -45,7 +45,7 @@ section {
     }
 
     nav ul {
-        justify-content: flex-end;
+        justify-content: end;
     }
 
     .nav-item {
