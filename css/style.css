@@ -62,8 +62,21 @@ section {
     .nav-item:hover {
         color: lightgrey;
     }
+   
+    #listingsanchor {
+        top: -75px;
+        position: relative; 
+    }
 
+    #enquiriesanchor {
+        top: -75px;
+        position: relative; 
+    }
 
+    #contactanchor {
+        top: -75px;
+        position: relative; 
+    }
 
 /* Main Title */
 
@@ -126,7 +139,9 @@ section {
 /* Enquiries Form */
 
     #enquiries {
-        margin: 5px 20%;
+        margin: 0 auto 50px;
+        width: 50%;
+        min-width: 400px;
         background-color: grey;
         border-radius: 5px;
         border: 1px dashed black;
@@ -136,6 +151,11 @@ section {
     #enquiries form {      
         justify-content: center;
         padding: 50px;
+    }
+
+    #enquiries label {
+        font-weight: bold;
+        color: darkslategrey;
     }
 
     #enquiry-button {
