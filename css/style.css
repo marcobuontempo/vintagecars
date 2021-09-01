@@ -40,8 +40,11 @@ section {
     .navbar-brand:hover {
         color: slategrey;
     }
+    .navbar-toggler-icon {
+        z-index: 2000;
+    }
 
-    nav div {
+    nav ul {
         justify-content: flex-end;
     }
 
