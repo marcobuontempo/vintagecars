@@ -15,6 +15,7 @@ h2 {
     font-weight: bold;
     font-style: italic;
     text-decoration: underline overline;
+    text-decoration-color: slategrey;
     margin-left: 0.5em;
 }
 
@@ -49,10 +50,13 @@ section {
     }
 
     .nav-item {
-        font-weight: bold;
         color: white;
         font-size: 1.5em;
         margin: 0 0.5em;
+    }
+
+    .active {
+        font-weight: bold;
     }
 
     .nav-item:hover {
@@ -71,6 +75,8 @@ section {
         margin-top: 56px;
         text-align: center;
         padding-top: 1em;
+        text-shadow: 2px 2px white;
+
     }
 
 
@@ -88,12 +94,12 @@ section {
     }
 
     div .col {
-        max-width: 200px;
+        max-width: 250px;
+        min-height: 350px;
     }
 
     .card {
         border-radius: 2% 15%;
-        margin: 10px;
         height: 300px;
         width: 200px;
     }
@@ -116,8 +122,6 @@ section {
     .card-text {
         font-style: italic;
     }
-
-
 
 /* Enquiries Form */
 
