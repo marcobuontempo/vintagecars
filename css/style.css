@@ -126,7 +126,16 @@ section {
 /* Enquiries Form */
 
     #enquiries {
-        margin: 5px 75px;
+        margin: 5px 20%;
+        background-color: grey;
+        border-radius: 5px;
+        border: 1px dashed black;
+
+    }
+
+    #enquiries form {      
+        justify-content: center;
+        padding: 50px;
     }
 
     #enquiry-button {
@@ -161,6 +170,9 @@ section {
     }
 
 
-#backtotop {
-    text-align: end;
-}
+
+    /* Other */
+    
+    #backtotop {
+        text-align: end;
+    }
